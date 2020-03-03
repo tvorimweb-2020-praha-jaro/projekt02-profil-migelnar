@@ -1,0 +1,145 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+html {
+    box-sizing: border-box;
+    font-size: 1em;
+    display: block;
+    padding: 1rem;
+    width: 250px;    
+    border: 250px;
+}
+
+
+body {
+    margin: 0 auto;
+    width: 250px;
+    line-height: 1.5;
+    background-color: #31363b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #C8C8C8;
+    background-color: #bdc3c7;
+    font-family: 'Source Sans Pro';
+  }
+
+  p {
+      padding: 1em;
+  }
+
+
+h1 {
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    color: whitesmoke;
+}
+
+  div {
+    background-color: #31363b;
+  }
+
+  .foto {
+    width: 250px;
+    position: relative;
+  }
+
+  .logo {
+    border-radius: 50%;
+    background-color: #b92e81;
+    position: absolute;
+    left: 190px;
+    top: 157px;
+  }
+
+  .profil {
+      max-width: 250px;
+  }
+
+  .odkazy {
+    text-align: center;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio {
+    display: block;
+    display: 100%;
+}
+
+.facebook {
+    display: inline-block;
+    display: 50%;
+    border-top: #3f464d;
+}
+
+.twitter {
+    display: inline-block;
+    display: 50%;
+}
+
+ul {
+padding-inline-start: 0%;
+border-top: 1px solid #3f464d;
+
+}
+
+.odkazy li {
+    display: inline-block;
+    margin: 0;
+    padding-inline-start: 0%;
+}
+
+.odkazy a {
+    display: block;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 250px;
+    font-style: none;
+    border-top: 1px solid #3f464d;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.facebook a {
+    display: inline-block;
+    width: 125px;
+    border-right: 1px solid #3f464d;
+}
+
+.twitter a {
+    display: inline-block;
+    width: 125px;
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+
+}
+
+.twitter a:hover {
+    background-color :#1da1f2;
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
